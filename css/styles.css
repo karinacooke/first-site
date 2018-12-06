@@ -1,0 +1,100 @@
+body {
+    margin: 0 auto;
+    font-family: "";
+}
+
+.nav-bar {
+    height: 90px;
+    width: 100%;
+    background-color: #B73C5C;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.logo {
+  height: 80px;
+}
+
+.nav-list {
+    float: right;
+}
+
+.list-item {
+    list-style-type: none;
+    background-color: #DAE16C;
+    height: 50px;
+    width: 90px;
+    float: left;
+    border: 2px solid #C2BEC7;
+    border-radius: 80px;
+    margin-right: 10px;
+}
+
+.list-item a {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 12px;
+    margin-left: 7px;
+}
+
+.hero-text {
+    text-align: center;
+}
+.hero-image {
+    width:100%;
+    height:900px;
+}
+
+.container {
+    width: 100%;
+    height: 500px;
+}
+
+.text, .section-image {
+    width: 48%;
+    border: 3px solid white;
+    float: left;
+    margin-left: 10px;
+}
+
+.text {
+    text-align: justify;
+}
+
+.section-image {
+    margin-top: 20px;
+}
+
+.footer {
+    height: 70px;
+    width: 100%;
+    clear: both;
+    background-color: #D97B39;
+}
+
+.copyright, .social, .container2 {
+    width: 30%;
+    margin-top: 20px;
+    text-align: center;
+    float: left;
+}
+
+.fa-instagram {
+    color: white;
+}
+
+/*start of about styles*/
+
+.main {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.col {
+    height:700px;
+    width: 32%;
+    margin-top: 90px;
+    float: left;
+    border: 2px solid white;
+}
